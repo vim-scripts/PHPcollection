@@ -1,0 +1,40 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=326
+
+PHP Collection contains 3 files and 2 links:
+compiler, ftplugin, script for use with 'keywordprg' and PHP
+manual, links to vim dictionaries of PHP functions and prototypes.
+
+I. PHP compiler (cphp.vim)
+Requirements:
+1. PHP compiled as cgi
+2. bash
+3. grep compatible tool :help grep
+4. standard message error from PHP (it doesn't use debugger) :help
+compiler
+Help:
+:make <file_name> <QUERY_STRING>
+
+II. PHP ftplugin (php.vim)
+Inspired by Christopher Swingley I add some things and put it in
+ftplugin file.
+First part is ``objective'' and contains only important(?) settings. In
+second are some useful options commented by default.
+
+III. Bash script for 'keywordprg' option. (phpmanual.sh)
+Written by Leszek Krupinski <leszek@php.net> for use with K.
+Default settings points to lynx and directory where Mkd8.2 puts
+php-manual rpm.
+
+IV. Links. Both dictionaries where created by Leszek Krupinski
+Dictionary of PHP functions:
+http://www.leon.w-wa.pl/texts/phpfunclist
+Dictionary of PHP prototypes:
+http://www.leon.w-wa.pl/texts/phpproto
+
+Thanks for Doug Kearns, Leszek Krupinski and Christopher Swingley
+
+All faults are only mine.
+
+Mikolaj Machowski
+<mikmach@wp.pl>
+
