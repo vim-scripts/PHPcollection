@@ -1,5 +1,5 @@
 PHP Collection contains 3 files and 2 links:
-PHP compiler, PHP ftplugin, script for use with 'keywordprg' and PHP
+Compiler, ftplugin, script for use with 'keywordprg' and PHP
 manual, links to vim dictionaries of PHP functions and prototypes.
 
 I. PHP compiler (cphp.vim)
@@ -9,6 +9,8 @@ Requirements:
 3. grep compatible tool :help grep
 4. standard message error from PHP (it doesn't use debugger) :help
 compiler
+Help:
+:make <file_name> <QUERY_STRING>
 
 II. PHP ftplugin (php.vim)
 Inspired by Christopher Swingley I add some things and put it in
