@@ -4,13 +4,14 @@ manual, links to vim dictionaries of PHP functions and prototypes.
 
 I. PHP compiler (cphp.vim)
 Requirements:
-1. PHP compiled as cgi
+1. PHP compiled as cgi (or cli)
 2. bash
 3. grep compatible tool :help grep
-4. standard message error from PHP (it doesn't use debugger) :help
-compiler
+4. standard message error from PHP (it doesn't use debugger) 
+:help compiler
 Help:
-:make <file_name> <QUERY_STRING>
+:make
+Will parse the current file, and report errors (if any).
 
 II. PHP ftplugin (php.vim)
 Inspired by Christopher Swingley I add some things and put it in
@@ -46,3 +47,7 @@ All faults are only my fault.
 
 Mikolaj Machowski
 <mikmach@wp.pl>
+
+Updated 2003-01-06 by Stephen Thorne <stephen@mu.com.au>
+to use php4's 'lint' filter, instead of executing a php file with 
+a query string. A few comments added to phpmanual.sh
